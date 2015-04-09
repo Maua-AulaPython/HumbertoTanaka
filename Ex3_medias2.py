@@ -13,4 +13,5 @@ media = soma/a
 print 'media =' , media
     
 
-        
+# Nota: 1.0
+# Comentario: *
