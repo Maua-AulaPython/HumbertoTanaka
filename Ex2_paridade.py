@@ -4,3 +4,6 @@ def paridade(x):
         else:
                 print "eh impar"
         
+
+# Nota: 0.5
+# Comentario: programa nao faz nada, dando 0.5 por que a funcao parece correta
