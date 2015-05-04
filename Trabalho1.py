@@ -5,7 +5,10 @@ def distancia(P1x,P1y,P2x,P2y):
     d = math.sqrt(math.pow((P2x-P1x),2)+math.pow((P2y-P1y),2))
     print 'd = ',d
     return d
-    
+
+# Nota: 1.0
+# Ok!
+
 ##--------Exercicio 2----------##
 
 def M_dist():
@@ -30,6 +33,9 @@ def M_dist():
                     b=d
     return b
 
+# Nota: 1.0
+# Cuidado com a complexidade do script!
+
 ##--------Exercicio 3----------##
 
 def Polar(P1x,P1y,P2x,P2y):
@@ -37,8 +43,11 @@ def Polar(P1x,P1y,P2x,P2y):
     d2 = distancia(0,0,P2x,P2y)
     a1 = math.degrees(math.atan2(float(P1y), float(P1x)))
     a2 = math.degrees(math.atan2(float(P2y), float(P2x)))
-    print 'Ponto 1: (',d1,',',a1,')' 
+    print 'Ponto 1: (',d1,',',a1,')'
     print 'Ponto 2: (',d2,',',a2,')'
+
+# Nota: 0.5
+# Era pra calcular as coordenadas do vetor formado entre os dois pontos!
 
 ##--------Exercicio 4----------##
 
@@ -49,6 +58,8 @@ def triangulo(a,b,c):
         s=float(a*b)/2
         print 'A area desse triangulo e: ',s,' u.a.'
 
+# Nota: 0.5
+# Era pra calcular as coordenadas do vetor formado entre os dois pontos!
 
 ##--------Exercicio 5----------##
 
@@ -76,6 +87,9 @@ def GPS():
     print 'Longitude: ',ra,' graus'
     print 'Altitude: ',1000*h,'m'
 
+# Nota: 1.0
+# Dica, não precisava repetir a função oi e teta, bastava colocalas antes do
+# N e h
 
 
 
@@ -91,5 +105,3 @@ def GPS():
 
 
 
-
-        
