@@ -22,4 +22,5 @@ if len(notas):
     print 'Maior Nota = ', max(notas)
 
 
-        
+#Nota: 0.9
+#Comentario: bom codigo, porem a media eh um float e nao int
